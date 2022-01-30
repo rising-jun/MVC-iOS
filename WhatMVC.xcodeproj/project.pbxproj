@@ -15,6 +15,7 @@
 		725EDB4C27A65F7D00D43970 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EDB4B27A65F7D00D43970 /* CountViewController.swift */; };
 		725EDB4E27A65F8700D43970 /* CountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725EDB4D27A65F8600D43970 /* CountModel.swift */; };
 		72CECAD227A66693009279A0 /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CECAD127A66693009279A0 /* ViewProtocol.swift */; };
+		72CECAD427A67458009279A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 72CECAD327A67458009279A0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		725EDB4B27A65F7D00D43970 /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
 		725EDB4D27A65F8600D43970 /* CountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountModel.swift; sourceTree = "<group>"; };
 		72CECAD127A66693009279A0 /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		72CECAD327A67458009279A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DCA0E0F311DFF1776A106824 /* Pods_WhatMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 		725EDB3327A65F3900D43970 /* WhatMVC */ = {
 			isa = PBXGroup;
 			children = (
+				72CECAD327A67458009279A0 /* README.md */,
 				725EDB4827A65F6600D43970 /* counter */,
 				725EDB3427A65F3900D43970 /* AppDelegate.swift */,
 				725EDB3D27A65F3A00D43970 /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72CECAD427A67458009279A0 /* README.md in Resources */,
 				725EDB4127A65F3A00D43970 /* LaunchScreen.storyboard in Resources */,
 				725EDB3E27A65F3A00D43970 /* Assets.xcassets in Resources */,
 			);
