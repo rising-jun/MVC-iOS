@@ -8,5 +8,5 @@
 import Foundation
 
 struct CountValue{
-    var value: Int? = 0
+    var value: Int = 0
 }

@@ -16,12 +16,6 @@ class CountViewController: UIViewController{
         }
     }
     
-    public private(set) var value: Int = 0{
-        didSet{
-            countView.updateCountText(value: "\(value)")
-        }
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,11 +26,11 @@ class CountViewController: UIViewController{
 }
 extension CountViewController: CountViewAction{
     func touchedPlus() {
-        value += 1
+        countValue.value += 1
     }
     
     func touchedMinus() {
-        value -= 1
+        countValue.value -= 1
     }
     
 }
